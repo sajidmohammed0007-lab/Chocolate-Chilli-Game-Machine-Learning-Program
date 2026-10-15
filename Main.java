@@ -2,7 +2,6 @@ import java.util.Scanner;
 
 public class Main {
     public static void main(String[] args) {
-        System.out.println("Hello, World!");
         Scanner input = new Scanner(System.in);
 
         displayWelcomeMessage();
@@ -12,10 +11,12 @@ public class Main {
         
     }
 
+    //method to display welcome message
     public static void displayWelcomeMessage() {
         System.out.println("Welcome to Chocolate Chilli!");
     }
 
+    //method to explain the rules of the game
     public static void explainRules() {
         System.out.println("");
         System.out.println("The rules of Chocolate Chilli are as follows:");
@@ -25,6 +26,7 @@ public class Main {
         System.out.println("");
     }
 
+    //method to set up the game
     public static void setupGame(Scanner input){
         String player1;
         System.out.print("Enter name for Player 1: ");
